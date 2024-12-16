@@ -1,0 +1,21 @@
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.square {
+    width: 150px;
+    height: 150px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+
+}
+.active {
+    background-color: lightblue; /* Цвет фона, который будет устанавливаться при нажатии */
+}
